@@ -26,7 +26,7 @@ export default function LandingPage() {
         {/* Background Video */}
         <video
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
-          src="/closyhomee.mp4"
+          src="/closyhomecom1.mp4"
           autoPlay
           muted
           loop
@@ -85,7 +85,7 @@ export default function LandingPage() {
         {/* Background Video */}
         <video
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
-          src="/featuresf.mp4"
+          src="/featurescom1.mp4"
           autoPlay
           muted
           loop
@@ -235,7 +235,7 @@ export default function LandingPage() {
                   <span>Instagram</span>
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/sakina-farukh-ahemad-809b3732b/"
+                  href="https://www.linkedin.com/in/sakina-farukh-ahemad-809b3732b"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-neutral-600 hover:text-neutral-900 transition-colors"
