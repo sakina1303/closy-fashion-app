@@ -26,7 +26,7 @@ export default function LandingPage() {
         {/* Background Video */}
         <video
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
-          src="/closyhomee.mov"
+          src="/closyhomee.mp4"
           autoPlay
           muted
           loop
