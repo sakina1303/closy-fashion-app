@@ -634,7 +634,7 @@ export const outfitRecommendations = [
     title: "Softly Professional Attire",
     description:
       "A gentle yet professional outfit that channels your romantic mood into a polished workplace appearance.",
-    imageUrl: "/romanticmeetingg.jpeg",
+    imageUrl: "/romanticmeeting.jpeg",
     items: [
       "Softly tailored blazer or cardigan in a muted, elegant tone",
       "Silk or soft cotton blouse or shirt",
@@ -653,7 +653,7 @@ export const outfitRecommendations = [
     eventLabel: "Casual Outing",
     title: "Softly Stylish Casual Look",
     description: "A gentle, dreamy casual outfit that expresses your romantic mood during everyday activities.",
-    imageUrl: "/placeholder.svg?height=800&width=600",
+    imageUrl: "/romanticcasual.jpeg",
     items: [
       "Soft, flowing top or light sweater in a flattering color",
       "Well-fitted jeans or casual pants that create a nice silhouette",
@@ -673,7 +673,7 @@ export const outfitRecommendations = [
     title: "Graceful Movement Attire",
     description:
       "A soft, flattering workout outfit that complements your romantic mood while providing functionality for exercise.",
-    imageUrl: "/placeholder.svg?height=800&width=600",
+    imageUrl: "/romanticworkout.jpeg",
     items: [
       "Flattering athletic top in a soft, feminine color",
       "Well-fitted leggings or workout pants that create a nice silhouette",
