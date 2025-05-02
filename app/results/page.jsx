@@ -81,19 +81,19 @@ export default function ResultsPage() {
           <img src="/closytext.svg" alt="Closy" className="h-20 object-contain" />
         </Link>
         <div className="flex gap-6">
-          <Link href="/favorites" className="text-neutral-600 hover:text-neutral-900">
+          <Link href="/favorites" className="text-neutral-600 hover:text-rose-400 transition-colors">
             Favorites
           </Link>
-          <a href="#features" className="text-neutral-600 hover:text-neutral-900">How It Works</a>
-          <a href="#about" className="text-neutral-600 hover:text-neutral-900">About</a>
-          <a href="#feedbacks" className="text-neutral-600 hover:text-neutral-900">Feedbacks</a>
-          <a href="#contact" className="text-neutral-600 hover:text-neutral-900">Contact</a>
+          <a href="#features" className="text-neutral-600 hover:text-rose-400 transition-colors">How It Works</a>
+          <a href="#about" className="text-neutral-600 hover:text-rose-400 transition-colors">About</a>
+          <a href="#feedbacks" className="text-neutral-600 hover:text-rose-400 transition-colors">Feedbacks</a>
+          <a href="#contact" className="text-neutral-600 hover:text-rose-400 transition-colors">Contact</a>
         </div>
       </header>
 
       {/* Back Button */}
       <div className="container mx-auto px-4 py-4">
-        <Link href="/recommend" className="inline-flex items-center gap-2 text-neutral-600 hover:text-neutral-900">
+        <Link href="/recommend" className="inline-flex items-center gap-2 text-neutral-600 hover:text-rose-400 transition-colors">
           <ArrowLeft size={18} />
           <span>Back to Selection</span>
         </Link>

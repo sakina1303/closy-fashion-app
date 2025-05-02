@@ -26,7 +26,7 @@ export default function FavoritesPage() {
           <img src="/closytext.svg" alt="Closy" className="h-20 object-contain" />
         </Link>
         <div className="flex gap-4">
-          <Link href="/recommend" className="text-neutral-900 hover:text-neutral-700">
+          <Link href="/recommend" className="text-neutral-900 hover:text-rose-400 transition-colors">
             Get Recommendations
           </Link>
         </div>
@@ -34,7 +34,7 @@ export default function FavoritesPage() {
 
       {/* Back Button */}
       <div className="container mx-auto px-4 py-4">
-        <Link href="/" className="inline-flex items-center gap-2 text-neutral-600 hover:text-neutral-900">
+        <Link href="/" className="inline-flex items-center gap-2 text-neutral-600 hover:text-rose-400 transition-colors">
           <ArrowLeft size={18} />
           <span>Back to Home</span>
         </Link>

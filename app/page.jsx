@@ -11,13 +11,13 @@ export default function LandingPage() {
           <img src="/closytext.svg" alt="Closy" className="h-20 object-contain" />
         </div>
         <div className="flex gap-6">
-          <Link href="/favorites" className="text-neutral-600 hover:text-neutral-900">
+          <Link href="/favorites" className="text-neutral-600 hover:text-rose-400 transition-colors">
             Favorites
           </Link>
-          <a href="#features" className="text-neutral-600 hover:text-neutral-900">How It Works</a>
-          <a href="#about" className="text-neutral-600 hover:text-neutral-900">About</a>
-          <a href="#feedbacks" className="text-neutral-600 hover:text-neutral-900">Feedbacks</a>
-          <a href="#contact" className="text-neutral-600 hover:text-neutral-900">Contact</a>
+          <a href="#features" className="text-neutral-600 hover:text-rose-400 transition-colors">How It Works</a>
+          <a href="#about" className="text-neutral-600 hover:text-rose-400 transition-colors">About</a>
+          <a href="#feedbacks" className="text-neutral-600 hover:text-rose-400 transition-colors">Feedbacks</a>
+          <a href="#contact" className="text-neutral-600 hover:text-rose-400 transition-colors">Contact</a>
         </div>
       </header>
 
@@ -46,7 +46,7 @@ export default function LandingPage() {
           </p>
           <Link
             href="/recommend"
-            className="inline-flex items-center gap-2 bg-neutral-800 text-white px-8 py-3 rounded-full hover:bg-neutral-700 transition-colors w-fit mx-auto"
+            className="inline-flex items-center gap-2 bg-neutral-800 text-white px-8 py-3 rounded-full hover:bg-neutral-600 hover:text-rose-400 transition-colors w-fit mx-auto"
           >
             Get Started <ArrowRight size={18} />
           </Link>
@@ -73,7 +73,7 @@ export default function LandingPage() {
       {/* About Section */}
       <section id="about" className="w-full py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">About Closy</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center hover:text-rose-400 transition-colors">About Closy</h2>
           <p className="text-lg text-neutral-600 text-center">
           Closy is the fashion bestie you never knew you needed. Feelin' baddie, softie, CEO, or just straight-up iconic? Drop the vibe, and Closy pulls up with outfit inspo that eats, slays, and never flops. No more "I have nothing to wear" meltdowns, just drip that hits different. You vibe it, we style it. Serving lewks, turning heads, and keeping it 100 every damn day. So whatchu waiting for? Just pick a vibe, and Closy handles the rest!
           </p>
@@ -94,7 +94,7 @@ export default function LandingPage() {
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/60 z-10"></div>
         <div className="relative z-20 container mx-auto px-4">
-          <h3 className="text-2xl md:text-3xl font-semibold mb-12 text-center text-white">How Closy Works</h3>
+          <h3 className="text-2xl md:text-3xl font-semibold mb-12 text-center text-white hover:text-rose-400 transition-colors">How Closy Works</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white/90 backdrop-blur-sm p-6 rounded-xl shadow-sm">
               <div className="h-12 w-12 bg-neutral-100 rounded-full flex items-center justify-center mb-4">
@@ -130,7 +130,7 @@ export default function LandingPage() {
       {/* Feedbacks Section */}
       <section id="feedbacks" className="w-full py-20 bg-neutral-50">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">What Our Users Say</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center hover:text-rose-400 transition-colors">What Our Users Say</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
@@ -175,7 +175,7 @@ export default function LandingPage() {
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/60 z-10"></div>
         <div className="relative z-20 max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-white">Get in Touch</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-white hover:text-rose-400 transition-colors">Get in Touch</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <form className="space-y-6 bg-white/90 backdrop-blur-sm p-8 rounded-xl shadow-sm">
               <div>
@@ -207,7 +207,7 @@ export default function LandingPage() {
               </div>
               <button
                 type="submit"
-                className="w-full bg-neutral-900 text-white px-6 py-3 rounded-lg hover:bg-neutral-800 transition-colors"
+                className="w-full bg-neutral-900 text-white px-6 py-3 rounded-lg hover:bg-neutral-800 hover:text-rose-400 transition-colors"
               >
                 Send Message
               </button>
@@ -264,7 +264,7 @@ export default function LandingPage() {
                   </p>
                   <Link
                     href="/recommend"
-                    className="inline-flex items-center gap-2 bg-neutral-800 text-white px-8 py-3 rounded-full hover:bg-neutral-700 transition-colors"
+                    className="inline-flex items-center gap-2 bg-neutral-800 text-white px-8 py-3 rounded-full hover:bg-neutral-800 hover:text-rose-400 transition-colors"
                   >
                     Create Fit <ArrowRight size={18} />
                   </Link>

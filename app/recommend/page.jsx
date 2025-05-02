@@ -56,19 +56,19 @@ export default function RecommendPage() {
           <img src="/closytext.svg" alt="Closy" className="h-20 object-contain" />
         </Link>
         <div className="flex gap-6">
-          <Link href="/favorites" className="text-white hover:text-neutral-200">
+          <Link href="/favorites" className="text-white hover:text-rose-400 transition-colors">
             Favorites
           </Link>
-          <a href="#features" className="text-white hover:text-neutral-200">How It Works</a>
-          <a href="#about" className="text-white hover:text-neutral-200">About</a>
-          <a href="#feedbacks" className="text-white hover:text-neutral-200">Feedbacks</a>
-          <a href="#contact" className="text-white hover:text-neutral-200">Contact</a>
+          <a href="#features" className="text-white hover:text-rose-400 transition-colors">How It Works</a>
+          <a href="#about" className="text-white hover:text-rose-400 transition-colors">About</a>
+          <a href="#feedbacks" className="text-white hover:text-rose-400 transition-colors">Feedbacks</a>
+          <a href="#contact" className="text-white hover:text-rose-400 transition-colors">Contact</a>
         </div>
       </header>
 
       {/* Back Button */}
       <div className="container mx-auto px-4 py-4 relative z-20">
-        <Link href="/" className="inline-flex items-center gap-2 text-white hover:text-neutral-200">
+        <Link href="/" className="inline-flex items-center gap-2 text-white hover:text-rose-400 transition-colors">
           <ArrowLeft size={18} />
           <span>Back to Home</span>
         </Link>
