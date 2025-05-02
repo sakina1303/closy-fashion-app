@@ -75,11 +75,20 @@ export default function ResultsPage() {
   return (
     <div className="min-h-screen bg-neutral-50 pb-20">
       {/* Header */}
-      <header className="container mx-auto px-4 py-6 flex justify-between items-center">
-        <Link href="/" className="flex items-center gap-2">
-          <div className="h-8 w-8 rounded-full bg-rose-400"></div>
-          <h1 className="text-xl font-semibold">Closy</h1>
+      <header className="container mx-auto px-2 py-2 flex justify-between items-center">
+        <Link href="/" className="flex items-center gap-3">
+          <img src="/closylogoo.svg" alt="Closy Logo" className="h-20 w-20 object-contain" />
+          <img src="/closytext.svg" alt="Closy" className="h-20 object-contain" />
         </Link>
+        <div className="flex gap-6">
+          <Link href="/favorites" className="text-neutral-600 hover:text-neutral-900">
+            Favorites
+          </Link>
+          <a href="#features" className="text-neutral-600 hover:text-neutral-900">How It Works</a>
+          <a href="#about" className="text-neutral-600 hover:text-neutral-900">About</a>
+          <a href="#feedbacks" className="text-neutral-600 hover:text-neutral-900">Feedbacks</a>
+          <a href="#contact" className="text-neutral-600 hover:text-neutral-900">Contact</a>
+        </div>
       </header>
 
       {/* Back Button */}

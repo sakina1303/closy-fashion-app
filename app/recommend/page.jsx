@@ -50,15 +50,19 @@ export default function RecommendPage() {
       <div className="absolute inset-0 bg-black/40 z-10"></div>
 
       {/* Header */}
-      <header className="container mx-auto px-4 py-6 flex justify-between items-center relative z-20">
+      <header className="container mx-auto px-2 py-2 flex justify-between items-center relative z-20">
         <Link href="/" className="flex items-center gap-3">
           <img src="/closylogoo.svg" alt="Closy Logo" className="h-20 w-20 object-contain" />
-          <img src="/closytext.svg" alt="Closy" className="h-19 object-contain" />
+          <img src="/closytext.svg" alt="Closy" className="h-20 object-contain" />
         </Link>
-        <div className="flex gap-4">
+        <div className="flex gap-6">
           <Link href="/favorites" className="text-white hover:text-neutral-200">
             Favorites
           </Link>
+          <a href="#features" className="text-white hover:text-neutral-200">How It Works</a>
+          <a href="#about" className="text-white hover:text-neutral-200">About</a>
+          <a href="#feedbacks" className="text-white hover:text-neutral-200">Feedbacks</a>
+          <a href="#contact" className="text-white hover:text-neutral-200">Contact</a>
         </div>
       </header>
 
@@ -120,8 +124,8 @@ export default function RecommendPage() {
               <button
                 type="submit"
                 disabled={!mood || !event}
-                className={`px-8 py-3 rounded-full text-white font-medium transition-colors ${
-                  mood && event ? "bg-neutral-900 hover:bg-neutral-800" : "bg-neutral-400 cursor-not-allowed"
+                className={`px-8 py-3 rounded-full font-medium transition-colors ${
+                  mood && event ? "bg-rose-400 hover:bg-rose-500 text-white" : "bg-neutral-400 cursor-not-allowed text-white"
                 }`}
               >
                 Get Outfit Recommendations
